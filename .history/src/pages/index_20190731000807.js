@@ -15,21 +15,20 @@ const IndexPage = ({ data }) => (
       title="Island Jerk"
     />
     <Info />
-    <Menu items={data.menu}/>
+    <Menu/>
   </Layout>
 );
 
 export const query = graphql`
   {
-    img: file(relativePath: { eq: "lemonlady.jpg" }) 
-    {
+    img: file(relativePath: { eq: "lemonlady.jpg" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid_tracedSVG
         }
       }
     }
-    menu: allContentfulMenuItem{
+    allContentfulMenuItem{
       edges{
         node{
           id
@@ -41,7 +40,7 @@ export const query = graphql`
           category
           image{
             fixed(width:50, height:50){
-              ...GatsbyContentfulFixed_tracedSVG 
+              ...GatsbyImageSharpFluid_tracedSVG 
             }
           }
         }

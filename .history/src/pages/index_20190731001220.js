@@ -21,15 +21,14 @@ const IndexPage = ({ data }) => (
 
 export const query = graphql`
   {
-    img: file(relativePath: { eq: "lemonlady.jpg" }) 
-    {
+    img: file(relativePath: { eq: "lemonlady.jpg" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid_tracedSVG
         }
       }
     }
-    menu: allContentfulMenuItem{
+    allContentfulMenuItem{
       edges{
         node{
           id
