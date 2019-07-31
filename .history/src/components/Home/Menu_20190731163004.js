@@ -8,7 +8,7 @@ const getCategories = items =>{
     });     
     let tempCategories = new Set (tempItems);
     let categories = Array.from(tempCategories);
-    categories = ["all", ...categories];
+    categories = ["all",...];
     return categories;
 };
 export default class Menu extends Component {
@@ -20,45 +20,13 @@ export default class Menu extends Component {
       categories:getCategories(props.items.edges)
     };
   }
-  handleItems =(category) =>{
-    let tempItems = [...this.state.items];
-    if(category === "all"){
-    this.setState(()=>{
-        return {menuItems:tempItems}
-    })
-    }
-    else{
-        let items = tempItems.filter(({node})=>node.category 
-        === category);
-        this.setState(()=>{
-            return{menuItems: items};
-        })
-    }
-  };
   render() {
     if (this.state.items.length > 0) {
       return (
         <section className="menu py-5">
           <div className="container">
             <Title title="best of our menu" />
-            <div className="row mb-5">
-                <div className="col-10 mx-auto text-center">
-                    {this.state.categories.map((category, index)=>{
-                        return(
-                            <button type="button" 
-                                key={index} 
-                                className="btn btn-yellow 
-                                text-capitalize m-3" 
-                                onClick= {()=>{
-                                    this.handleItems(category);
-                                }}
-                            >
-                                {category}
-                            </button>
-                            );
-                        })}
-                    </div>
-                </div>
+            {/* categories */}
             {/* Items */}
             <div className="row">
             {this.state.menuItems.map(({node})=>{
