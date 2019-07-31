@@ -31,7 +31,7 @@ h6 {
   font-size: 2rem;
 }
 .default-background {
-  min-height: 60vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
