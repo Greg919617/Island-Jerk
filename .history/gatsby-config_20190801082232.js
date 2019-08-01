@@ -27,10 +27,10 @@ module.exports = {
     {
 			resolve: 'gatsby-plugin-snipcart',
 			options: {
-        apiKey: process.env.SNIPCART_API,
+        apiKey: 'YOUR_SNIPCART_KEY',
         autopop:true
 			}
-		},
+		}
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
