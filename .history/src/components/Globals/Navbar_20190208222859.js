@@ -56,8 +56,7 @@ https://www.iconfinder.com/webalys */}
               );
             })}
             <li className="nav-item ml-sm-5">
-              <FaCartArrowDown className="cart-icon
-              snipcart-checkout" />
+              <FaCartArrowDown className="cart-icon" />
             </li>
           </ul>
         </div>

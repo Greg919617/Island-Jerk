@@ -14,8 +14,7 @@ export default function Product({product}) {
             data-item-id={product.id}
             data-item-name={product.title}
             data-item-price={product.price}
-            data-item-image={product.image.fluid.src}
-            data-item-url="https://island-jerk.netlify.com/"
+            data-item-url="http://myapp.com/products/bacon"
             >
                 Add to cart
             </button>
