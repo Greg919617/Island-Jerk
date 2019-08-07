@@ -41,10 +41,11 @@ export default class Menu extends Component {
         <section className="menu py-5">
           <div className="container">
             <Title title="best of our menu" />
-            <div className="d-flex flex-row mb-5">
+            <div className="row mb-5">
                 <div className=" display col-10 mx-auto text-center">
                     {this.state.categories.map((category, index)=>{
                         return(
+                          <div className="d-flex flex-row">
                             <button type="button" 
                                 key={index} 
                                 className="btn btn-yellow 
@@ -55,6 +56,7 @@ export default class Menu extends Component {
                             >
                                 {category}
                             </button>
+                            </div>
                             );
                         })}
                     </div>

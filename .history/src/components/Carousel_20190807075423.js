@@ -40,8 +40,8 @@ const Carousel= ({ data }) => (
           <MDBMask overlay="black-strong" />
           </MDBView>
           <MDBCarouselCaption>
-            <h3 className="h3-responsive">Open Tuesday - Saturday</h3>
-            <p>10am-8pm</p>
+            <h3 className="h3-responsive">Strong mask</h3>
+            <p>Second text</p>
           </MDBCarouselCaption>
         </MDBCarouselItem>
         <MDBCarouselItem itemId="3">

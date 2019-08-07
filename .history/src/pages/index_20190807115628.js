@@ -14,7 +14,7 @@ const IndexPage = ({ data }) => (
      `delivery`, `jerk-island`]}/>
     <BackgroundSection
       img={data.img.childImageSharp.fluid}
-      title=" "
+      title="M&K Jamaican"
     />
     <Info />
     <Menu items={data.menu}/>
