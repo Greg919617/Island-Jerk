@@ -14,7 +14,7 @@ const IndexPage = ({ data }) => (
      `delivery`, `jerk-island`]}/>
     <BackgroundSection
       img={data.img.childImageSharp.fluid}
-      title="Island Jerk"
+      title="M&K Jamaican"
     />
     <Info />
     <Menu items={data.menu}/>
@@ -25,7 +25,7 @@ const IndexPage = ({ data }) => (
 
 export const query = graphql`
   {
-    img: file(relativePath: { eq: "lemonlady.jpg" }) 
+    img: file(relativePath: { eq: "m-kfront.png" }) 
     {
       childImageSharp {
         fluid {

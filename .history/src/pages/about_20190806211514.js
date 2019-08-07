@@ -1,5 +1,7 @@
 import React from "react";
 import { Link, graphql } from "gatsby";
+import { MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBContainer, MDBRow, MDBCol, MDBCard, MDBCardImage,
+MDBCardBody, MDBCardTitle, MDBCardText, MDBBtn } from "mdbreact";
 import Carousel from "../components/Carousel";
 
 
@@ -16,7 +18,6 @@ const AboutPage = ({ data }) => (
       styleClass="about-background"
     />
     <Info />
-    <Carousel/>
   </Layout>
 );
 

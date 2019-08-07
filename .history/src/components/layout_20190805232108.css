@@ -80,12 +80,3 @@ h6 {
   background: var(--mainWhite);
   color: var(--mainBrown);
 }
-.squaresLeft{
-  background: var(--mainYellow);
-
-}
-
-.squaresRight{
-  background: var(--mainGreen);
-
-}

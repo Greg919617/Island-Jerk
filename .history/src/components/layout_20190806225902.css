@@ -82,10 +82,10 @@ h6 {
 }
 .squaresLeft{
   background: var(--mainYellow);
-
+  margin-left:10px
 }
 
 .squaresRight{
   background: var(--mainGreen);
-
+  margin-right:10px
 }

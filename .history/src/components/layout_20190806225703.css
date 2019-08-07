@@ -82,10 +82,9 @@ h6 {
 }
 .squaresLeft{
   background: var(--mainYellow);
-
 }
 
 .squaresRight{
   background: var(--mainGreen);
-
+  display: flex;
 }

@@ -42,7 +42,7 @@ export default class Menu extends Component {
           <div className="container">
             <Title title="best of our menu" />
             <div className="row mb-5">
-                <div className="col-10 mx-auto text-center">
+                <div className=" display col-10 mx-auto text-center">
                     {this.state.categories.map((category, index)=>{
                         return(
                             <button type="button" 

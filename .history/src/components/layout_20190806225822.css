@@ -82,7 +82,7 @@ h6 {
 }
 .squaresLeft{
   background: var(--mainYellow);
-
+  margin-left:3px
 }
 
 .squaresRight{
