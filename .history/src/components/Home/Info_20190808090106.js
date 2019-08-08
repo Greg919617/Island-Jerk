@@ -14,8 +14,8 @@ export default function Info() {
             Serve only the highest quality product, prepare it in a clean and sparkling environment, and serve it in a warm and friendly manner.
                         </p>
             <Link to="/about/">
-              <button className="btn text-uppercase btn-white">
-                Learn More
+              <button className="btn text-uppercase btn-yellow">
+                about page
               </button>
             </Link>
           </div>

@@ -1,5 +1,7 @@
 import React from "react";
 import { Link, graphql } from "gatsby";
+import { MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBContainer, MDBRow, MDBCol, MDBCard, MDBCardImage,
+MDBCardBody, MDBCardTitle, MDBCardText, MDBBtn } from "mdbreact";
 import Carousel from "../components/Carousel";
 
 
@@ -12,17 +14,16 @@ const AboutPage = ({ data }) => (
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <BackgroundSection
       img={data.img.childImageSharp.fluid}
-      title="About M&K"
+      title="about us"
       styleClass="about-background"
     />
     <Info />
-    <Carousel/>
   </Layout>
 );
 
 export const query = graphql`
   {
-    img: file(relativePath: { eq: "mkstore.png" }) {
+    img: file(relativePath: { eq: "about-background.jpeg" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid_tracedSVG

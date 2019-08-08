@@ -15,7 +15,7 @@ export default function Info() {
                         </p>
             <Link to="/about/">
               <button className="btn text-uppercase btn-white">
-                Learn More
+                about page
               </button>
             </Link>
           </div>

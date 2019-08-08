@@ -12,8 +12,8 @@ const AboutPage = ({ data }) => (
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <BackgroundSection
       img={data.img.childImageSharp.fluid}
-      title="About M&K"
-      styleClass="about-background"
+      title="about us"
+      styleClass="about-background img-fluid"
     />
     <Info />
     <Carousel/>
@@ -22,7 +22,7 @@ const AboutPage = ({ data }) => (
 
 export const query = graphql`
   {
-    img: file(relativePath: { eq: "mkstore.png" }) {
+    img: file(relativePath: { eq: "markslogo.jpg" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid_tracedSVG

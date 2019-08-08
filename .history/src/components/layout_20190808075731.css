@@ -6,13 +6,11 @@
   --mainGrey: #ece8dc;
   --mainWhite: #fff;
   --mainDark: #222;
-  --mainDarkBlue: rgb(0, 0, 0);
-  --mainDarkGreen:#13ec4aa9;
   --mainGold: rgb(255, 230, 0);
 }
 
 body {
-  background: var(--mainDarkGreen);
+  background: var(--mainWhite);
   color: var(--mainDark);
   font-family: Verdana, Geneva, Tahoma, sans-serif !important;
 }
@@ -43,15 +41,14 @@ h6 {
   background-size: cover;
 }
 .about-background {
-  min-height: 100vh;
+  min-height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
- 
+  background: linear-gradient(rgba(255, 158, 9, 0.5), rgba(255, 158, 9, 0.5));
   background-position: center;
   background-size: cover;
 }
-/*  background: linear-gradient(rgba(255, 158, 9, 0.5), rgba(255, 158, 9, 0.5)); */
 .btn-yellow {
   color: var(--mainGreen);
   border-color: var(--mainGreen);
@@ -77,12 +74,11 @@ h6 {
 
 
 .btn-white {
-  color: var(--mainGold);
-  border-color: var(--mainGold);
-  padding-top: 3py
+  color: var(--mainDark);
+  border-color: var(--mainYellow);
 }
 .btn-white:hover {
-  background: var(--mainGold);
+  background: var(--mainWhite);
   color: var(--mainBrown);
 }
 .squaresLeft{
@@ -96,15 +92,15 @@ h6 {
 }
 .info-background-image{
 
-  width: 100%;
-  height: 100%;
+  width: 200px;
+  height: 200px;
   display: block;
   position: relative;
 }
 
 .info-background-image::after {
   content: "";
-  background: url("../images/jamaicanflag.jpg");
+  background: url('markslogo.jpg');
   opacity: 0.5;
   top: 0;
   left: 0;
@@ -112,11 +108,4 @@ h6 {
   right: 0;
   position: absolute;
   z-index: -1;   
-  background-position: center;
-  background-size: cover;
-  
-}
-
-.mission-statement{
-  background-color:transparent;
 }

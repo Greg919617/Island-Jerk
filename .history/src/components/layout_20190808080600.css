@@ -6,13 +6,11 @@
   --mainGrey: #ece8dc;
   --mainWhite: #fff;
   --mainDark: #222;
-  --mainDarkBlue: rgb(0, 0, 0);
-  --mainDarkGreen:#13ec4aa9;
   --mainGold: rgb(255, 230, 0);
 }
 
 body {
-  background: var(--mainDarkGreen);
+  background: var(--mainWhite);
   color: var(--mainDark);
   font-family: Verdana, Geneva, Tahoma, sans-serif !important;
 }
@@ -43,15 +41,14 @@ h6 {
   background-size: cover;
 }
 .about-background {
-  min-height: 100vh;
+  min-height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
- 
+  background: linear-gradient(rgba(255, 158, 9, 0.5), rgba(255, 158, 9, 0.5));
   background-position: center;
   background-size: cover;
 }
-/*  background: linear-gradient(rgba(255, 158, 9, 0.5), rgba(255, 158, 9, 0.5)); */
 .btn-yellow {
   color: var(--mainGreen);
   border-color: var(--mainGreen);
@@ -77,12 +74,11 @@ h6 {
 
 
 .btn-white {
-  color: var(--mainGold);
-  border-color: var(--mainGold);
-  padding-top: 3py
+  color: var(--mainDark);
+  border-color: var(--mainYellow);
 }
 .btn-white:hover {
-  background: var(--mainGold);
+  background: var(--mainWhite);
   color: var(--mainBrown);
 }
 .squaresLeft{
@@ -100,6 +96,8 @@ h6 {
   height: 100%;
   display: block;
   position: relative;
+  background-position: center;
+  background-size: cover;
 }
 
 .info-background-image::after {
@@ -114,9 +112,4 @@ h6 {
   z-index: -1;   
   background-position: center;
   background-size: cover;
-  
-}
-
-.mission-statement{
-  background-color:transparent;
 }
