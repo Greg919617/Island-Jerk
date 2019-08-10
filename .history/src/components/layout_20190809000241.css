@@ -1,0 +1,127 @@
+:root {
+  --mainBrown: #2d1e1f;
+  --mainRed:#D81F26;
+  --mainYellow: rgb(255, 158, 9);
+  --mainGreen:#14d80e;
+  --mainGrey: #ece8dc;
+  --mainWhite: #fff;
+  --mainDark: #222;
+  --mainDarkBlue: rgb(0, 0, 0);
+  --mainDarkGreen:#13ec4aa9;
+  --mainGold: rgb(255, 230, 0);
+}
+
+body {
+  background: var(--mainDarkGreen);
+  color: var(--mainDark);
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Courier New", Courier, monospace !important;
+  letter-spacing: 0.25rem !important;
+}
+.text-yellow {
+  color: var(--mainYellow);
+}
+.cart-icon {
+  cursor: pointer;
+  color: var(--mainYellow);
+  font-size: 2rem;
+}
+.default-background {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(12, 11, 10, 0.5), rgba(12, 11, 10, 0.5));
+  background-position: center;
+  background-size: cover;
+}
+.about-background {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  background-position: center;
+  background-size: cover;
+}
+/*  background: linear-gradient(rgba(255, 158, 9, 0.5), rgba(255, 158, 9, 0.5)); */
+.btn-yellow {
+  color: var(--mainGreen);
+  border-color: var(--mainGreen);
+}
+.btn-yellow:hover {
+  background: var(--mainGreen);
+  color: var(--mainBrown);
+}
+.footer {
+  background: var(--mainGrey);
+}
+.menu,
+.contact {
+  background: var(--mainGrey);
+}
+
+.filtermenu {
+  color: var(--mainYellow);
+  border-color: var(--mainYellow);
+  display: flex;
+  width: 100%;
+}
+
+
+.btn-white {
+  color: var(--mainGold);
+  border-color: var(--mainGold);
+  padding-top: 3py
+}
+.btn-white:hover {
+  background: var(--mainGold);
+  color: var(--mainBrown);
+}
+.squaresLeft{
+  background: var(--mainGold);
+
+}
+
+.squaresRight{
+  background: var(--mainGreen);
+
+}
+.info-background-image{
+
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+}
+
+.info-background-image::after {
+  content: "";
+  background: url("../images/jamaicanflag.jpg");
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.mission-statement{
+  background-color:transparent;
+}
+
+
+#showcase{
+  background: url(../images/mkstore.png)
+}
