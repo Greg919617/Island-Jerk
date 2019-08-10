@@ -173,11 +173,11 @@ h6 {
 
 
   #about-section {
-    background: url('../images/mkstore.png'); 
+    background: url('../images/rastapasta.jpg'); 
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 400px;
+    height: 300px;
   }
 
 #about-section .primary-overlay {

@@ -47,7 +47,7 @@ export default class Menu extends Component {
                         return(
                             <button type="button" 
                                 key={index} 
-                                className="btn-group btn-group-toggle btn-yellow btn btn-outline-success" data-toggle="buttons"  
+                                className="btn-group btn-group-toggle btn-blue" data-toggle="buttons"  
                                 text-capitalize = "m-3"
                                 onClick= {()=>{
                                     this.handleItems(category);

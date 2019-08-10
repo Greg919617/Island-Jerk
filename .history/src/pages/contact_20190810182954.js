@@ -80,7 +80,7 @@ export default function Contact() {
               <hr/>
               <div class="row">
                 <div class="col-md-6">
-                  <div class="form-group pb-5">
+                  <div class="form-group">
                     <input type="text" class="form-control" placeholder="First Name"/>
                   </div>
                 </div>

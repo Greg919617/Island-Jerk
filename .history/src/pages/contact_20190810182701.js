@@ -80,34 +80,34 @@ export default function Contact() {
               <hr/>
               <div class="row">
                 <div class="col-md-6">
-                  <div class="form-group pb-5">
+                  <div class="form-group">
                     <input type="text" class="form-control" placeholder="First Name"/>
                   </div>
                 </div>
                 <div class="col-md-6">
-                  <div class="form-group pb-5">
+                  <div class="form-group">
                     <input type="text" class="form-control" placeholder="Last Name"/>
                   </div>
                 </div>
                 <div class="col-md-6">
-                  <div class="form-group pb-5">
+                  <div class="form-group">
                     <input type="text" class="form-control" placeholder="Email"/>
                   </div>
                 </div>
                 <div class="col-md-6">
-                  <div class="form-group pb-5">
+                  <div class="form-group">
                     <input type="text" class="form-control" placeholder="Phone Number"/>
                   </div>
                 </div>
               </div>
               <div class="row">
                 <div class="col-md-12">
-                  <div class="form-group pb-5">
+                  <div class="form-group">
                     <textarea class="form-control" placeholder="Message"></textarea>
                   </div>
                 </div>
                 <div class="col-md-12">
-                  <div class="form-group pb-5">
+                  <div class="form-group">
                     <input type="submit" value="Submit" class="btn btn-outline-danger btn-block"/>
                   </div>
                 </div>
