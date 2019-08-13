@@ -169,16 +169,27 @@ h6 {
 
   /* About page */
 
-
-
+/* background image */
+#about-section {
+  background: url('/images/lemonlady.jpg ')  bottom center / cover no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 400px;
+  background-color: rgb(0, 0, 0);
+}
 
   #about-section {
-    background: url('../images/mkstore.png'); 
+    background: url('/images/mkstore.png ')  bottom center / cover no-repeat;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     height: 400px;
+    background-color: rgb(0, 0, 0);
   }
+
+
+  
 
 #about-section .primary-overlay {
  

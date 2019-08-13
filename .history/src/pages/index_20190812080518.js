@@ -4,6 +4,7 @@ import { Link, graphql } from "gatsby";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import BackgroundSection from "../components/Globals/BackgroundSection";
+import BackgroundAboutSection from "../components/Globals/BackgroundAboutSection";
 import Info from "../components/Home/Info";
 import Menu from "../components/Home/Menu";
 // import Products from "../components/Home/Products";
@@ -23,7 +24,7 @@ const IndexPage = ({ data }) => (
     <Menu items={data.menu}/>
 
   
-    <section id="about-section"> 
+    <section id="panel-section"> 
     <div className="p-4 primary-overlay">
     <div className="container">
      
@@ -42,6 +43,7 @@ const IndexPage = ({ data }) => (
 
 export const query = graphql`
   {
+
     menu: allContentfulMenuItem{
       edges{
         node{

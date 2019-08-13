@@ -7,7 +7,7 @@ import React from "react";
 //   display: 'block',
 //   width: '53%'
 // };
-export default function BackgroundSection({
+export default function BackgroundAboutSection({
   img,
   styleClass,
   title,
@@ -24,7 +24,7 @@ export default function BackgroundSection({
             <div className="d-flex justify-content-center">
               <div className="pb-5" >
                 
-      <img className="img-fluid"  src={require('./markslogo.jpg')} />
+      <img className="img-fluid"  src={require('./components/images/mkstore.png')} />
 
 
               </div>
@@ -61,6 +61,7 @@ export default function BackgroundSection({
     <div className="col">
     <img fluid style={picStyle} src="https://lh3.googleusercontent.com/6MxLRDs26bKuvVAHGrJxWdR1uVrXzAgB37OtoA-9ahoUjwdO5hkhQZjxB3eBtldh9cdA7wiBCw=w960-h960-n-o-v1" alt="" class="center pb-1"/>
     </div>
+
   
 </div>
 </div> */}

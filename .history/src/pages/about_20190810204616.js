@@ -11,11 +11,30 @@ const AboutPage = ({ data }) => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <BackgroundSection
-     
+      img={data.img.childImageSharp.fluid}
       title="About M&K"
       styleClass="about-background"
     />
     <Info />
+    <header id="home-section">
+    <div className="home-inner container pt-5">
+      <section>
+        <div className="row">
+          <div className="col">
+            <div className="d-flex justify-content-center">
+              <div className="pb-5" >
+                
+      <img className="img-fluid"  src={require('.images/mkstore.png')} />
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </header>
+  
     <Carousel/>
   </Layout>
 );

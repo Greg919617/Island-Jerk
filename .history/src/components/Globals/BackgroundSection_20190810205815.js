@@ -16,7 +16,7 @@ export default function BackgroundSection({
   children
 }) {
   return (
-    <header id="home-section">
+    <header id="about-section">
     <div className="home-inner container pt-5">
       <section>
         <div className="row">
@@ -61,6 +61,7 @@ export default function BackgroundSection({
     <div className="col">
     <img fluid style={picStyle} src="https://lh3.googleusercontent.com/6MxLRDs26bKuvVAHGrJxWdR1uVrXzAgB37OtoA-9ahoUjwdO5hkhQZjxB3eBtldh9cdA7wiBCw=w960-h960-n-o-v1" alt="" class="center pb-1"/>
     </div>
+
   
 </div>
 </div> */}

@@ -173,7 +173,7 @@ h6 {
 
 
   #about-section {
-    background: url('../images/mkstore.png'); 
+    background: url('../images/mkstore.png ')  bottom center / cover no-repeat;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
