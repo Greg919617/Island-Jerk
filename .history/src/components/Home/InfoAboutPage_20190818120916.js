@@ -19,7 +19,7 @@ export default function InfoAbout() {
         <div style={divStyle} className="row">
           <div className="col-10 col-sm-8 mx-auto text-center">
             <p className="lead text-white bg-success my-5 ">
-          Authentic Jamaican Styled Food and Atmosphere provided with love from Mark and K. We Cater
+          Authentic Jamaican Styled Food and Atmosphere provided with love from Mark and K. We Cater as well
                         </p>
             <Link to="/contact/">
               <button className="btn text-uppercase btn-white pb-2">
