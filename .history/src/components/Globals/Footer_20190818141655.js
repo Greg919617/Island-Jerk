@@ -9,9 +9,9 @@ export default function Footer() {
       <div className="container">
         <div className="row">
           <div className="col-10 mx-auto col-md-6 text-yellow text-center text-capitalize">
-            <h6>
-               &copy;{new Date().getFullYear().toString()}
-            </h6>
+            <h5>
+              all rights reserved &copy;{new Date().getFullYear().toString()}
+            </h5>
             <h6>Site by JonesAffectsGraphix</h6>
           </div>
         </div>

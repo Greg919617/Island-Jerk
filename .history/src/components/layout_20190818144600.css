@@ -108,7 +108,7 @@ h6 {
 
 .info-background-image::after {
   content: "";
-  background: url("../images/Jamaican-Flag.png");
+  background: url("../images/Jamaican-Flag.jpg");
   opacity: 0.5;
   top: 0;
   left: 0;
