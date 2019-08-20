@@ -28,8 +28,8 @@ export default function InfoAbout() {
           and homemade drinks which provide many natural health benefits. We bring to you a wide series of jamaican curry, mouth watering jerk chicken, 
           and refreshing gingerroot lemonade.</p>
             <Link to="/contact/">
-              <button className="btn text-uppercase btn-white pb-2 ">
-                Contact us for Catering
+              <button className="btn text-uppercase btn-white pb-2">
+                Download Catering Menu
                 
               </button>
             </Link>

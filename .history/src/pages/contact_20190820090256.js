@@ -21,7 +21,6 @@ export default function Contact() {
               <span></span>
               <h4 className="text-center" >Phone</h4>
               <a  href="tel:+1-256-384-7956">+1 (256) 384-7956</a>
-              <hr/>
               <h4 className="text-center" >Hours</h4>
               <table className="table text-center">
   <thead class="thead-light">

@@ -29,7 +29,7 @@ export default function InfoAbout() {
           and refreshing gingerroot lemonade.</p>
             <Link to="/contact/">
               <button className="btn text-uppercase btn-white pb-2 ">
-                Contact us for Catering
+                Download Catering Menu
                 
               </button>
             </Link>
