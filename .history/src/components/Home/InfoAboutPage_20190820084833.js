@@ -18,7 +18,7 @@ export default function InfoAbout() {
         
         <div style={divStyle} className="row">
           <div className="col-10 col-sm-8 mx-auto text-center">
-            <p className="lead text-white bg-dark my-5 px-4 py-3">
+            <p className="lead text-white bg-dark my-5 px-4 py-4 ">
           M & K is a casual dining restuarant of Huntsville known for its exceptionality and touch of simplicity 
           that is as unique as is the name. 
           </p>

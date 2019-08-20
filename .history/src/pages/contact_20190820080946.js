@@ -102,15 +102,6 @@ export default function Contact() {
                             required
                             />
                         </div>
-                        <div className="form-group">
-                        <label for="telephone">Telephone Number</label>
-                        <input type="telephone" 
-                        name="telephone" 
-                        id="telephone" 
-                        placeholder=" (555) 555-5555"
-                        required
-                        />
-                        </div>
                         {/* description */}
                         <div className="form-group">
                             <label htmlFor="description">Description

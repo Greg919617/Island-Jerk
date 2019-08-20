@@ -79,7 +79,7 @@ export default function Contact() {
            
               <div className="row">
               <div className="col-md-8 pb-5">
-              <form action="https://formspree.io/relevantdocs247@gmail.com" method="POST">
+              <form action="https://formspree.io/mandkjamaicanrestaurat@gmail.com" method="POST">
                         {/* name */}
                         <div className="form-group">
                             <label htmlFor="name">Name</label>
@@ -102,12 +102,13 @@ export default function Contact() {
                             required
                             />
                         </div>
+                        <label for="telephone">Telephone Number
+                        </label>
                         <div className="form-group">
-                        <label for="telephone">Telephone Number</label>
                         <input type="telephone" 
                         name="telephone" 
                         id="telephone" 
-                        placeholder=" (555) 555-5555"
+                        placeholder="(555) 555-5555"
                         required
                         />
                         </div>

@@ -79,7 +79,7 @@ export default function Contact() {
            
               <div className="row">
               <div className="col-md-8 pb-5">
-              <form action="https://formspree.io/relevantdocs247@gmail.com" method="POST">
+              <form action="https://formspree.io/mandkjamaicanrestaurat@gmail.com" method="POST">
                         {/* name */}
                         <div className="form-group">
                             <label htmlFor="name">Name</label>

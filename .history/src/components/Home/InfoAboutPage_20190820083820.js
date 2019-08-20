@@ -5,7 +5,7 @@ import Title from "../Globals/Title";
 
 
 const divStyle = {
-  margin: '',
+  margin: '40px',
   border: '5px solid pink'
 };
 
@@ -18,14 +18,8 @@ export default function InfoAbout() {
         
         <div style={divStyle} className="row">
           <div className="col-10 col-sm-8 mx-auto text-center">
-            <p className="lead text-white bg-dark my-5 px-4 py-3">
-          M & K is a casual dining restuarant of Huntsville known for its exceptionality and touch of simplicity 
-          that is as unique as is the name. 
-          </p>
-          <p className="lead text-white bg-dark my-5 px-4 py-3">
-          We take pride in offering delicious authentic jamaican food with family recipes passed down from generations, 
-          and homemade drinks which provide many natural health benefits. We bring to you a wide series of jamaican curry, mouth watering jerk chicken, 
-          and refreshing gingerroot lemonade.</p>
+            <p className="lead text-white bg-success my-5 ">
+          Mark & K is a casual dining restuarant of Huntsville known for its exceptionality and touch of simplicity that is as unique as is the name. We take pride in offering delicious Traditional Jamaican food with family recipes, and homemade drinks. We bring to you a wide series of authentic jamaican curry, mouth watering Jerk, and refreshing Gingerroot Lemonade.          </p>
             <Link to="/contact/">
               <button className="btn text-uppercase btn-white pb-2">
                 Learn More
