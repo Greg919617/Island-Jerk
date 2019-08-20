@@ -33,7 +33,10 @@ export default function InfoAbout() {
                 
               </button>
             </Link>
-            
+            <p className="lead text-white bg-dark my-5 px-4 py-3">
+          We take pride in offering delicious authentic jamaican food with family recipes passed down from generations, 
+          and homemade drinks which provide many natural health benefits. We bring to you a wide series of jamaican curry, mouth watering jerk chicken, 
+          and refreshing gingerroot lemonade.</p>
           </div>
         </div>
       </div>

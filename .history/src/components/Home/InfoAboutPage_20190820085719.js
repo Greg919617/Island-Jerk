@@ -33,7 +33,6 @@ export default function InfoAbout() {
                 
               </button>
             </Link>
-            
           </div>
         </div>
       </div>

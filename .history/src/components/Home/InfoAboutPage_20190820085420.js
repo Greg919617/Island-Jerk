@@ -6,8 +6,7 @@ import Title from "../Globals/Title";
 
 const divStyle = {
   margin: '',
-  border: '5px dotted pink',
-
+  border: '5px solid gold'
 };
 
 export default function InfoAbout() {
@@ -33,7 +32,6 @@ export default function InfoAbout() {
                 
               </button>
             </Link>
-            
           </div>
         </div>
       </div>

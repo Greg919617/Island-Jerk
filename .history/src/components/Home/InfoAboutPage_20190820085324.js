@@ -6,8 +6,7 @@ import Title from "../Globals/Title";
 
 const divStyle = {
   margin: '',
-  border: '5px dotted pink',
-
+  border: '5px solid gold'
 };
 
 export default function InfoAbout() {
@@ -18,7 +17,7 @@ export default function InfoAbout() {
         <Title title="About Us" />
         
         <div style={divStyle} className="row">
-          <div className="col-10 col-sm-8 mx-auto text-center pb-3">
+          <div className="col-10 col-sm-8 mx-auto text-center">
             <p className="lead text-white bg-dark my-5 px-4 py-3">
           M & K is a casual dining restuarant of Huntsville known for its exceptionality and touch of simplicity 
           that is as unique as is the name. 
@@ -33,7 +32,6 @@ export default function InfoAbout() {
                 
               </button>
             </Link>
-            
           </div>
         </div>
       </div>
